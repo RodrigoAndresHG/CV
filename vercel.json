@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "https://www.rodriheredia.com/$1" }
+  ]
+}
