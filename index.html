@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
     <script>
@@ -43,6 +42,12 @@
                     <li class="nav-item"><a class="nav-link" href="#certifications">Certificaciones</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    <li class="nav-item">
+                        <select id="language-select" class="form-control">
+                            <option value="es">Español</option>
+                            <option value="en">English</option>
+                        </select>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -50,7 +55,7 @@
     <header class="bg-dark text-white text-center py-5 header">
         <div class="container">
             <h1 class="display-4">Rodrigo Andrés Heredia Garcés</h1>
-            <p class="lead">Ingeniero en Mecatrónica | Especialista en Inteligencia Artificial</p>
+            <pclass="lead">Ingeniero en Mecatrónica | Especialista en Inteligencia Artificial</p>
             <p>Ambato, Tungurahua, Ecuador</p>
             <p>Email: <a href="mailto:rodrigoandreshg@gmail.com" class="text-white">rodrigoandreshg@gmail.com</a> | Tel: 0984056137</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/rodrigoheredia" class="text-white">linkedin.com/in/rodrigoheredia</a></p>
@@ -206,36 +211,34 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="images/certificadoLOPDP.png" class="img-fluid" alt="Implementando la Ley Orgánica de Datos Personales">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="images/certificadoLOPDP.png" alt="Implementando la Ley Orgánica de Datos Personales">
+                        <div class="swiper-caption">
                             <h5>Implementando la Ley Orgánica de Datos Personales</h5>
                             <p>Business Information Academics</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/certificadoCEDIA1.png" class="img-fluid" alt="Introducción al Mundo de las Redes y el Networking">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="images/certificadoCEDIA1.png" alt="Introducción al Mundo de las Redes y el Networking">
+                        <div class="swiper-caption">
                             <h5>Introducción al Mundo de las Redes y el Networking</h5>
                             <p>CEDIA</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/certificadoCEDIA2.png" class="img-fluid" alt="Tecnologías de Routing y Switching en Redes Empresariales">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="images/certificadoCEDIA2.png" alt="Tecnologías de Routing y Switching en Redes Empresariales">
+                        <div class="swiper-caption">
                             <h5>Tecnologías de Routing y Switching en Redes Empresariales</h5>
                             <p>CEDIA</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/certificadoCEDIA3.png" class="img-fluid" alt="Operación de Infraestructura de Red en Entornos Empresariales">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="images/certificadoCEDIA3.png" alt="Operación de Infraestructura de Red en Entornos Empresariales">
+                        <div class="swiper-caption">
                             <h5>Operación de Infraestructura de Red en Entornos Empresariales</h5>
                             <p>CEDIA</p>
                         </div>
                     </div>
-                    <!-- Añadir más elementos del carrusel aquí -->
                 </div>
-                <!-- Controles de navegación -->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
@@ -243,80 +246,52 @@
         </div>
     </section>
     <section id="skills" class="py-5" data-aos="fade-up">
-    <div class="container">
-        <h2 class="text-center">Habilidades</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <ul class="list-unstyled">
-                    <li><i class="fas fa-code"></i> Programación en Python</li>
-                    <li><i class="fas fa-code"></i> Programación en Java</li>
-                    <li><i class="fas fa-code"></i> Desarrollo Web (HTML, CSS, JavaScript)</li>
-                    <li><i class="fas fa-mobile-alt"></i> Desarrollo de aplicaciones móviles</li>
-                    <li><i class="fas fa-database"></i> Gestión de bases de datos (SQL, NoSQL)</li>
-                    <li><i class="fas fa-sync-alt"></i> Desarrollo de software ágil (Scrum, Kanban)</li>
-                    <li><i class="fas fa-code-branch"></i> Control de versiones con Git</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-unstyled">
-                    <li><i class="fas fa-project-diagram"></i> Gestión de proyectos (PMI, Prince2)</li>
-                    <li><i class="fas fa-tasks"></i> Metodologías ágiles (Scrum, Kanban)</li>
-                    <li><i class="fas fa-exclamation-triangle"></i> Gestión de riesgos</li>
-                    <li><i class="fas fa-chart-line"></i> Planificación estratégica de TI</li>
-                    <li><i class="fas fa-sitemap"></i> Implementación de sistemas ERP</li>
-                    <li><i class="fas fa-retweet"></i> Gestión del cambio</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-unstyled">
-                    <li><i class="fas fa-network-wired"></i> Administración de redes</li>
-                    <li><i class="fas fa-shield-alt"></i> Seguridad cibernética</li>
-                    <li><i class="fas fa-server"></i> Gestión de servidores y almacenamiento</li>
-                    <li><i class="fas fa-lock"></i> Implementación de políticas de seguridad</li>
-                    <li><i class="fas fa-cloud"></i> Gestión de infraestructura en la nube (AWS, Azure)</li>
-                    <li><i class="fas fa-chalkboard-teacher"></i> Implementación de plataformas e-learning</li>
-                    <li><i class="fas fa-laptop-code"></i> Desarrollo de contenido educativo digital</li>
-                    <li><i class="fas fa-users"></i> Capacitación y desarrollo de personal</li>
-                    <li><i class="fas fa-headset"></i> Soporte técnico educativo</li>
-                </ul>
-            </div>
+        <div class="container">
+            <h2 class="text-center">Habilidades</h2>
+            <ul class="list-unstyled text-center">
+                <li><i class="fas fa-laptop-code"></i> Desarrollo de Software</li>
+                <li><i class="fas fa-tasks"></i> Dirección de Proyectos de TI</li>
+                <li><i class="fas fa-users-cog"></i> Gestión de Equipos</li>
+                <li><i class="fas fa-network-wired"></i> Administración de Redes</li>
+                <li><i class="fas fa-cloud"></i> Computación en la Nube</li>
+                <li><i class="fas fa-lock"></i> Ciberseguridad</li>
+                <li><i class="fas fa-chart-line"></i> Análisis de Datos</li>
+                <li><i class="fas fa-robot"></i> Automatización</li>
+                <li><i class="fas fa-cogs"></i> Mantenimiento de Sistemas</li>
+                <li><i class="fas fa-chalkboard-teacher"></i> Capacitación y Formación</li>
+            </ul>
         </div>
-    </div>
-</section>
+    </section>
     <section id="contact" class="py-5 bg-light" data-aos="fade-up">
-    <div class="container">
-        <h2 class="text-center">Contacto</h2>
-        <p class="text-center mb-5">Si deseas ponerte en contacto conmigo, por favor completa el siguiente formulario y te responderé a la brevedad posible.</p>
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <form action="https://formspree.io/f/mzbnqzzj" method="POST" class="p-4 rounded shadow">
-                    <div class="form-group">
-                        <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Mensaje:</label>
-                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
-                </form>
-            </div>
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <p class="text-center">Estoy disponible para nuevas oportunidades y colaboraciones. Por favor, no dudes en enviarme un mensaje.</p>
+            <form action="https://formspree.io/f/mzbnqzzj" method="POST" class="text-center">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
-    </div>
-</section>
+    </section>
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Rodrigo Andrés Heredia Garcés</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="scripts.js"></script>
     <script>
         AOS.init();
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -327,7 +302,6 @@
                 });
             });
         });
-
         var swiper = new Swiper('.swiper-container', {
             loop: true,
             navigation: {
@@ -339,7 +313,17 @@
                 clickable: true,
             },
         });
+        document.getElementById('language-select').addEventListener('change', function () {
+            var selectedLanguage = this.value;
+            var currentUrl = window.location.href;
+            if (selectedLanguage === 'en') {
+                window.location.href = currentUrl.replace('/es', '/en');
+            } else if (selectedLanguage === 'es') {
+                window.location.href = currentUrl.replace('/en', '/es');
+            }
+        });
     </script>
 </body>
 </html>
+
 
