@@ -138,9 +138,8 @@ form button:hover {
     padding: 1em;
     border-radius: 8px;
 }
-
 #contact {
-    background: linear-gradient(to right, #1e3c72 0%, #2a5298 50%, #1e3c72 100%);
+    background: linear-gradient(to right, #1e3c72 0%, #2a5298 50%, #1e3c72 100%); /* Gradiente de azul */
     color: white;
 }
 
@@ -171,56 +170,11 @@ form button:hover {
 }
 
 #contact .btn-primary {
-    background-color: #2a5298;
+    background-color: #2a5298; /* Azul */
     border-color: #2a5298;
 }
 
 #contact .btn-primary:hover {
-    background-color: #1e3c72;
+    background-color: #1e3c72; /* Azul más oscuro */
     border-color: #1e3c72;
-}
-
-.swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.swiper-caption {
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 10px;
-    text-align: center;
-    width: 100%;
-    max-width: 90%;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-    color: #333;
-}
-
-.swiper-pagination-bullet-active {
-    background: #333;
 }
