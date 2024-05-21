@@ -36,6 +36,25 @@ header {
 .card:hover {
     transform: scale(1.05);
 }
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+/* Transiciones */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
 
 .card-title {
     font-size: 1.25rem;
